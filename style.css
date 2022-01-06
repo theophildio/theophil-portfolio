@@ -119,3 +119,68 @@ h4 {
   font-size: 16px;
   line-height: 24px;
 }
+
+/* Develop Area CSS */
+
+.develop-area .img-area {
+  position: relative;
+}
+
+.develop-area .img-area .shape {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  left: -12%;
+  top: 45%;
+  transform: translate(-12%, -45%);
+  z-index: -1;
+}
+
+.develop-area .img-area {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+.img-area img {
+  width: 100%;
+  height: 450px;
+  border-radius: 25px;
+}
+
+.develop-area .text-area {
+  width: 55%;
+  overflow: hidden;
+}
+
+h3 {
+  color: #333333;
+  font-size: 36px;
+  line-height: 22px;
+}
+
+.sharing-area .text-area {
+  width: 55%;
+  float: left;
+  margin-right: 5%;
+}
+
+.sharing-area .img-area {
+  width: 40%;
+  overflow: hidden;
+}
+
+/* Sharing Area CSS */
+
+.sharing-area {
+  position: relative;
+}
+
+.sharing-area .shape {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  right: -8%;
+  bottom: 15%;
+  z-index: -1;
+}
