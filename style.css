@@ -228,10 +228,14 @@ h3 {
   text-align: center;
 }
 
-.footer-area h2 {
+.footer-area h3 {
   color: #ffffff;
   font-family: 'Yeseva One', cursive;
   font-size: 36px;
+}
+
+.footer-area h3 span {
+  color: #516BEB;
 }
 
 .footer-area p {
