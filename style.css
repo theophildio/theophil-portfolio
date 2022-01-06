@@ -6,19 +6,22 @@ body {
 /* Main Header CSS */
 
 section {
-  height: 500px;
-  padding-bottom: 150px;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.main-header {
+  overflow: hidden;
 }
 
 .half-width {
-  width: 40%;
+  width: 50%;
   float: left;
-  margin-left: 5%;
-  padding-left: 2%;
 }
 
 .half-width img {
-  width: 90%;
+  width: 100%;
 }
 
 h1 {
@@ -34,7 +37,7 @@ h1 span {
 }
 
 .main-heading {
-  margin-top: 140px;
+  margin-top: 130px;
   border-left: 4px solid #84DFFF;
 }
 
@@ -64,4 +67,55 @@ p {
   margin-top: 30px;
   color: #333333;
   font-size: 16px;
+}
+
+/* Mission CSS */
+
+.mission-area {
+  overflow: hidden;
+}
+
+h2 {
+  color: #333333;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 span {
+  color: #516BEB;
+}
+
+h4 {
+  color: #333333;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.mission-objectives {
+  width: 32%;
+  height: 400px;
+  float: left;
+  padding: 40px 30px;
+  background-color: #84DFFF;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.mission-objectives:nth-child(3) {
+  margin: 0 2%;
+  background-color: #EDD2F3;
+}
+
+.mission-objectives:nth-child(4) {
+  background-color: #FFFCDC;
+}
+
+.mission-objectives img {
+  width: 30%;
+}
+
+.mission-objectives p {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
 }
