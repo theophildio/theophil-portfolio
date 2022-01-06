@@ -152,6 +152,7 @@ h4 {
 .develop-area .text-area {
   width: 55%;
   overflow: hidden;
+  padding-top: 45px;
 }
 
 h3 {
@@ -164,6 +165,7 @@ h3 {
   width: 55%;
   float: left;
   margin-right: 5%;
+  padding-top: 45px;
 }
 
 .sharing-area .img-area {
