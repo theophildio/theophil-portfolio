@@ -9,6 +9,7 @@ section {
   width: 80%;
   margin: 0 auto;
   min-height: 600px;
+  margin-bottom: 20px;
 }
 
 .main-header {
@@ -183,4 +184,62 @@ h3 {
   right: -8%;
   bottom: 15%;
   z-index: -1;
+}
+
+/* Contact CSS */
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form input, textarea {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 2px solid #516BEB;
+  outline: none;
+  padding: 10px 0;
+}
+
+.contact-form input::placeholder {
+  color: #7cd3f3;
+  font-size: 16px;
+}
+
+.contact-form textarea, textarea::placeholder {
+  resize: none;
+  color: #7cd3f3;
+  font-size: 16px;
+}
+
+.contact-form input.anchor-btn {
+  width: 30%;
+  border-bottom: 0;
+  cursor: pointer;
+}
+
+/* Footer CSS */
+
+.footer-area {
+  padding: 15px 0;
+  background-color: #0B0D17;
+  text-align: center;
+}
+
+.footer-area h2 {
+  color: #ffffff;
+  font-family: 'Yeseva One', cursive;
+  font-size: 36px;
+}
+
+.footer-area p {
+  font-size: 14px;
+  color: #D9DBE1;
+}
+
+.footer-area a {
+  text-decoration: none;
+  color: #516BEB;
 }
