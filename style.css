@@ -187,7 +187,14 @@ h3 {
 }
 
 /* Contact CSS */
-
+.contact {
+	padding-top: 12px;
+	background-image: url(images/shape-3.png);
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position-x: 39%;
+	background-position-y: 4%;
+}
 .contact-form {
   width: 50%;
   margin: 0 auto;
